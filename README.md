@@ -1,4 +1,4 @@
-# ffmpeg_teststream
+# ffmpeg_SRT-Teststream
 
 ## SRT caller per systemd-unit zu einem mediamtx-Server
 Das folgende unit-Skript hier, z.B. so anlegen:   
