@@ -1,6 +1,18 @@
 # ffmpeg_SRT-Teststream
 
-Dieses Repo zeigt **einzelne Beispiele**, keine zentrale Verwaltung.  
+## About
+
+Dieses Repository zeigt einen bewusst minimalistischen FFmpeg-SRT-Teststream,
+optimiert für **Raspberry Pi Zero 2** und andere Low-Power-Systeme.
+
+Besonderheiten:
+- **SRT Listener**: FFmpeg startet erst bei eingehender Verbindung
+- **kein Dauerbetrieb**, keine permanente CPU-Last
+- einfache systemd-Unit + ein einzelnes Skript
+- geeignet für sporadische Tests, Debugging und leichte Endpunkte
+
+Dieses Repo ist **kein Framework** und keine zentrale Streamverwaltung.
+
 Für eine wiederverwendbare, deklarative Lösung siehe:
 https://github.com/richtertoralf/ffmpeg-Teststreams
 
