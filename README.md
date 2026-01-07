@@ -1,8 +1,15 @@
 # ffmpeg-srt-listener-rpi-zero2
 
-## About
+## Two operating modes
 
-Dieses Repository zeigt einen bewusst minimalistischen FFmpeg-SRT-Teststream,
+### Mode A: SRT Caller (permanent stream)
+⚠️ Not optimized for Raspberry Pi Zero 2  
+Shown for comparison only.
+
+### Mode B: SRT Listener (on-demand, low power)
+✅ Recommended mode for Raspberry Pi Zero 2
+
+Dieser Teil des Repository zeigt einen bewusst minimalistischen FFmpeg-SRT-Teststream,
 optimiert für **Raspberry Pi Zero 2** und andere Low-Power-Systeme.
 
 Besonderheiten:
