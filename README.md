@@ -1,5 +1,10 @@
 # ffmpeg_SRT-Teststream
 
+Dieses Repo zeigt **einzelne Beispiele**, keine zentrale Verwaltung.  
+Für eine wiederverwendbare, deklarative Lösung siehe:
+https://github.com/richtertoralf/ffmpeg-Teststreams
+
+
 ## SRT caller per systemd-unit zu einem mediamtx-Server
 Das folgende unit-Skript hier, z.B. so anlegen:   
 `nano /etc/systemd/system/ffmpeg_stream.service`  
