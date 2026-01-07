@@ -1,4 +1,4 @@
-# ffmpeg_SRT-Teststream
+# ffmpeg-srt-listener-rpi-zero2
 
 ## About
 
